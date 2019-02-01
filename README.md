@@ -11,6 +11,11 @@ You will be able to:
 
 * Compare and contrast traditional back propagation with back propagation through time
 * Demonstrate an understanding of the role time steps play in RNN models
+    * describing what the heck is happening in an RNN
+        * Treating data as a sequence through time vs individual points
+        * Each step takes a previous step as the input
+        * hvalues are calculated using the previous output is it part of x1 or the activation function?
+        * ouput (h0) is a matrix and will be multiplied with the current input (x1) -> activation function -> h1
 
 ## Data as Time Sequences
 
